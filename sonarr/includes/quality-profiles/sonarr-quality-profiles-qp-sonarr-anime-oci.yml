@@ -7,7 +7,7 @@ quality_profiles:
       until_quality: Bluray-1080p
       until_score: 10000
     min_format_score: 100
-    score_set: anime-sonarr
+    score_set: sonarr-anime-oci
     quality_sort: top
     qualities:
       # - name: Bluray-2160p Remux
