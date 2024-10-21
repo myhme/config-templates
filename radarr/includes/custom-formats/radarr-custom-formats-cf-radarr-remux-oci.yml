@@ -9,5 +9,5 @@ custom_formats:
       - e35ba95fd66190fdd9d74a6c972ed158 # English Dubbed
       - 89ecdca5a1732cf92e8aa31916a2cfe9 # English Audio
     assign_scores_to:
-      - name: Radarr-remux-oci
+      - name: radarr-remux-oci
         score: 0

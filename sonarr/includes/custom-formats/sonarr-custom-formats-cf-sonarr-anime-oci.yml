@@ -57,4 +57,4 @@ custom_formats:
       - 58790d4e2fdcd9733aa7ae68ba2bb503 # WEB Tier 02
       - d84935abd3f8556dcd51d4f27e22d0a6 # WEB Tier 03
     assign_scores_to:
-      - name: Sonarr-anime-oci
+      - name: sonarr-anime-oci
