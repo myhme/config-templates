@@ -1,5 +1,13 @@
 custom_formats:
   - trash_ids:
+      # Language Filter and Scoring
+      - 07a3fe67e6172d33147c59ffd376ce0a # Japanese Audio
+      - b35c26572f1dd4ac407af3f9b86a8fbc # Korean Audio
+      - 91d36d756559cf7f396003f6a11f9182 # Hindi Dubbed
+      - b845768af19b911dd464ce55114f37b4 # Hindi Audio
+      - 546991c340f47d02495fc360fe481ab2 # English and Hindi Audio
+      - e35ba95fd66190fdd9d74a6c972ed158 # English Dubbed
+      - 89ecdca5a1732cf92e8aa31916a2cfe9 # English Audio
     assign_scores_to:
       - name: Radarr-default-oci
         score: 0
