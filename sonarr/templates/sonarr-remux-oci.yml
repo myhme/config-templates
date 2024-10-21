@@ -1,0 +1,28 @@
+###################################################################################################
+# Recyclarr Configuration Template: Anime Sonarr                                                  #
+# Updated: 2024-08-08                                                                             #
+# Documentation: https://recyclarr.dev                                                            #
+# Note: If you are using multiple profiles in a single instance, please read the following        #
+# documentation about file merging:                                                               #
+# https://recyclarr.dev/wiki/yaml/config-examples/#merge-single-instance                          #
+# This config file is for use with Sonarr V4 only                                                 #
+###################################################################################################
+
+# Instance Definition: https://recyclarr.dev/wiki/yaml/config-reference/basic/
+sonarr:
+  sonarr-remux-oci:
+    base_url: Put your Sonarr URL here
+    api_key: Put your API key here
+
+    include:
+      # Comment out any of the following includes to disable them
+      - template: sonarr-quality-definition-qs-sonarr-remux-oci
+      - template: sonarr-quality-profiles-qp-sonarr-remux-oci
+      - template: sonarr-custom-formats-cf-sonarr-remux-oci
+
+# Custom Formats: https://recyclarr.dev/wiki/yaml/config-reference/custom-formats/
+    custom_formats:
+      - trash_ids:
+        assign_scores_to:
+          - name: sonarr-remux-oci
+            score: 0 # Adjust scoring as desired

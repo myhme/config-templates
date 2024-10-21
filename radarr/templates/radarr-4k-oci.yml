@@ -1,0 +1,26 @@
+###################################################################################################
+# Recyclarr Configuration Template: Anime Radarr                                                  #
+# Updated: 2024-08-08                                                                             #
+# Documentation: https://recyclarr.dev                                                            #
+# Note: If you are using multiple profiles in a single instance, please read the following        #
+# documentation about file merging:                                                               #
+# https://recyclarr.dev/wiki/yaml/config-examples/#merge-single-instance                          #
+###################################################################################################
+
+# Instance Definition: https://recyclarr.dev/wiki/yaml/config-reference/basic/
+radarr:
+  radarr-4k-oci:
+    base_url: Put your Radarr URL here
+    api_key: Put your API key here
+
+    include:
+      # Comment out any of the following includes to disable them
+      - template: radarr-quality-definition-qs-radarr-4k-oci
+      - template: radarr-quality-profiles-qp-radarr-4k-oci
+      - template: radarr-custom-formats-cf-radarr-4k-oci
+
+# Custom Formats: https://recyclarr.dev/wiki/yaml/config-reference/custom-formats/
+    custom_formats:
+      - trash_ids:
+        assign_scores_to:
+          - name: radarr-4k-oci
