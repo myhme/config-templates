@@ -1,12 +1,12 @@
 quality_profiles:
-  - name: Radarr-remux-oci
+  - name: radarr-remux-oci
     reset_unmatched_scores:
       enabled: true
     upgrade:
       allowed: true
-      until_quality: Raw-HD
+      until_quality: Remux-2160p
       until_score: 10000
-    min_format_score: 0
+    min_format_score: 1
     quality_sort: top
     qualities:
       - name: Raw-HD

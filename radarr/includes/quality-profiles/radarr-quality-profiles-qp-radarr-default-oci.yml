@@ -1,5 +1,5 @@
 quality_profiles:
-  - name: Radarr-default-oci
+  - name: radarr-default-oci
     reset_unmatched_scores:
       enabled: true
     upgrade:

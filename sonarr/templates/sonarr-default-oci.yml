@@ -25,4 +25,4 @@ sonarr:
       - trash_ids:
         assign_scores_to:
           - name: sonarr-default-oci
-            score: 0 # Adjust scoring as desired
+            # score: 0 # Adjust scoring as desired
