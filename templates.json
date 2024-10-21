@@ -1,6 +1,22 @@
 {
   "radarr": [
     {
+      "template": "radarr/templates/radarr-default-oci.yml",
+      "id": "radarr-default-oci"
+    },
+    {
+      "template": "radarr/templates/radarr-4k-oci.yml",
+      "id": "radarr-4k-oci"
+    },
+    {
+      "template": "radarr/templates/radarr-anime-oci.yml",
+      "id": "radarr-anime-oci"
+    },
+    {
+      "template": "radarr/templates/radarr-remux-oci.yml",
+      "id": "radarr-remux-oci"
+    },
+    {
       "template": "radarr/templates/hd-bluray-web.yml",
       "id": "hd-bluray-web"
     },
@@ -84,6 +100,22 @@
     }
   ],
   "sonarr": [
+    {
+      "template": "sonarr/templates/sonarr-default-oci.yml",
+      "id": "sonarr-default-oci"
+    },
+    {
+      "template": "sonarr/templates/sonarr-4k-oci.yml",
+      "id": "sonarr-4k-oci"
+    },
+    {
+      "template": "sonarr/templates/sonarr-anime-oci.yml",
+      "id": "sonarr-anime-oci"
+    },
+    {
+      "template": "sonarr/templates/sonarr-remux-oci.yml",
+      "id": "sonarr-remux-oci"
+    },
     {
       "template": "sonarr/templates/web-1080p-v4.yml",
       "id": "web-1080p-v4"
