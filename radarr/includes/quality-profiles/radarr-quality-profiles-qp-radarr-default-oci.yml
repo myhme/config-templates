@@ -14,8 +14,9 @@ quality_profiles:
       # - name: Remux-2160p
       # - name: Bluray-2160p
       # - name: WEB 2160p
-      # - name: WEBRip-2160p
-      # - name: WEBDL-2160p
+        # qualities:      
+          # - WEBRip-2160p
+          # - WEBDL-2160p
       # - name: HDTV-2160p
       # - name: Remux-1080p
       - name: Bluray-1080p
