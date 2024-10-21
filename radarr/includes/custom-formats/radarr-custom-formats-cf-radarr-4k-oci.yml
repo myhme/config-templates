@@ -10,4 +10,3 @@ custom_formats:
       - 89ecdca5a1732cf92e8aa31916a2cfe9 # English Audio
     assign_scores_to:
       - name: radarr-4k-oci
-        score: 0
