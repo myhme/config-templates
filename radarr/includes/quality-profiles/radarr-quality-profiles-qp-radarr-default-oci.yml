@@ -6,7 +6,7 @@ quality_profiles:
       allowed: true
       until_quality: Bluray-1080p
       until_score: 10000
-    min_format_score: 0
+    min_format_score: 1
     quality_sort: top
     qualities:
       # - name: Raw-HD
